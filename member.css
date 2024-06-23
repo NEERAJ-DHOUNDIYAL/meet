@@ -1,0 +1,96 @@
+.df {
+    font-size: large;
+    height: 70px;
+    margin-top: 25px;
+    padding: 5px 0 15px 0;
+    background-color: white;
+display: flex;
+justify-content: center;
+
+}
+.upperbox {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+}
+
+.box {
+    height: 370px;
+    width: 370px;
+    background-color: white;
+  
+
+}
+.box :hover{
+    border-radius: 8px;
+    transform: scale(.95);
+}
+
+.boxlogo {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+   background-image: url("uk.jpg.webp");
+    background-size: cover;
+}
+
+.boxcontent {
+    /* margin-left: 10px; */
+  
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+align-content: center;
+   justify-content: center;
+   
+    
+}
+
+.boxcontent h4 {
+    font-size: larger;
+    font-family: 'Brandon Printed', sans-serif;
+    color: #333333;
+    
+   
+}
+
+.boxcontent a {
+    font-size: small;
+    text-decoration: none;
+    color: #006ae1;
+}
+
+/* .box2 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+} */
+
+.boxlogo2 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("uk.jpg.webp");
+    background-size: cover;
+}
+/* 
+.box3 {
+    height: 420px;
+    width: 350px;
+    background-color: white;
+} */
+
+.boxlogo3 {
+    height: 210px;
+    width: 330px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("uk.jpg.webp");
+    background-size: cover;
+}

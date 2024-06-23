@@ -1,0 +1,142 @@
+
+
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+ height: 580px;
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: black
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 28px;
+   /* padding: 8px 12px;  */
+  position: absolute;
+  /* bottom: 8px; */
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:black;
+  font-size: 12px;
+  /* padding: 8px 12px; */
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+ 
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50rem;
+  background-image: url("UttarakhandPines.jpg");
+  background-size:cover;
+}
+.brief {
+  align-content: center;
+  font-size: larger;
+  height: 25rem;
+  width:80%;
+  font-weight: 700;
+  color:black;
+  background-color: white;
+  padding-left: 1rem;
+  border-radius: 3rem;
+ 
+ 
+}
+.thoughts{
+  height: 30rem;
+  background: #167b77;
+  display: flex;
+  
+
+}
+
+.leftse {
+  
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.leftimg {
+
+
+  height: 45%;
+  width: 94%;
+
+}
+
+.rightse {
+  
+  width: 50%;
+
+  display: flex;
+}
+
+.para {
+  color: white;
+  font-family: 'Brandon Printed', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+@media (max-width: 1175px) {
+
+}
