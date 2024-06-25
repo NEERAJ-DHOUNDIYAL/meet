@@ -4,6 +4,7 @@
     margin-top: 25px;
     padding: 5px 0 15px 0;
     background-color: white;
+    color: rgba(9, 127, 186, 0.886);
 display: flex;
 justify-content: center;
 
@@ -31,12 +32,12 @@ justify-content: center;
 }
 
 .boxlogo {
-    height: 210px;
-    width: 330px;
-    margin-left: 10px;
-    margin-right: 10px;
-   background-image: url("uk.jpg.webp");
-    background-size: cover;
+    /* height: 210px;
+    width: 330px; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+   /* background-image: url("person.png"); */
+    /* background-size: cover; */
 }
 
 .boxcontent {

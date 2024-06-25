@@ -1,0 +1,51 @@
+.contentdisplay{
+    height: 100%;
+    margin-top: 1rem;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   background-image: url("loan1.jpg");
+   background-size: cover;
+   
+}
+.persondetail{
+    height: 100%;
+    width: 80%;
+    
+}
+.meetdate{
+    height: 15%;
+   
+    background-color:rgb(40, 40, 214);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meetdetails{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.meetbox{
+  width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.meetcontent{
+    height: 18rem; 
+    width: 70%;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+}
+
+.meetcontent p{
+    color: black;
+}

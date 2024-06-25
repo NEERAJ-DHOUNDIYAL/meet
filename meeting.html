@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
    <title>GM </title> 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="meeting.css">
    </head>
 <body>
 <div class="container">
@@ -19,16 +20,55 @@
     <div class="navbar">
         <ul class="nav-links">
             <li><a href="./index.html">HOME</a></li>
-            <li class="center"><a href="./member.html">MEMBERS</a></li>
-            <li class="upward"><a href="./account.html">ACCOUNT</a></li>
-            <li class="forward"><a href="./meeting.html">MEETING</a></li>
+            <li class="center"><a href="./member.html">सदस्य</a></li>
+            <li class="upward"><a href="./account.html">ऋण विवरण</a></li>
+            <li class="forward"><a href="./meeting.html">मासिक बैठक</a></li>
           </ul>
     </div>
+    <div class="memcontainer">
+    <div class="monthcont">
+      <div class="month">
+      <button id="jan" style="padding: 1px;height: 2rem;width: 3rem;">JAN</button>
+      <button id="feb" style="padding: 1px;height: 2rem;width: 3rem;">FEB</button>
+      <button id="mar" style="padding: 1px;height: 2rem;width: 3rem;">MAR</button>
+      <button id="apr" style="padding: 1px;height: 2rem;width: 3rem;">APR</button>
+      <button id="may" style="padding: 1px;height: 2rem;width: 3rem;">MAY</button>
+      <button id="jun"style="padding: 1px;height: 2rem;width: 3rem;">JUN</button>
+      <button id="jul"style="padding: 1px;height: 2rem;width: 3rem;">JUL</button>
+      <button id="aug" style="padding: 1px;height: 2rem;width: 3rem;">AUG</button>
+      <button id="sep"style="padding: 1px;height: 2rem;width: 3rem;">SEP</button>
+      <button id="oct"style="padding: 1px;height: 2rem;width: 3rem;">OCT</button>
+      <button id="nov"style="padding: 1px;height: 2rem;width: 3rem;">NOV</button>
+      <button id="dec"style="padding: 1px;height: 2rem;width: 3rem;">DEC</button>
+       </div>
+  </div>
+
+  <div class="contentdisplay">
+       <div class="persondetail">
+  <div class="meetdate"><h1 id="vardate">JAN 2024</h1></div>
+  <div class="meetdetails">
+        <div class="meetbox">
+              <div class="meetboxlogo"><img id="imageid"src="./character/jan.jpeg" alt="" height="200px" width="200px" style="  border-radius:50%;">
+              </div>
+            </div>
+   <div class="meetcontent">
+          
+              <div class=""><p><strong>NAME :</strong><b id="meetname"style="color:brown">LUFFY</b></p></div>
+              <div class=""> <p><strong>ADDRESS :</strong><B id="meetadd"style="color:brown">.......abc......</B></p></div>
+               <div class=""><p><strong>MOBILE:</strong><b id="meetno"style="color:brown">..........123</b></p></div>
+               
+      </div>
+
+  </div>
+</div>
+
+  </div>
 
 
-    <h1>meetttttt</h1>
+    
+</div>
 
-
+<div class="footer"><p>Design & Developed By ND</p></div>
 
 </div>
   
@@ -47,5 +87,6 @@
     backSpeed: 30,
   });
 </script>
+<script src="meet.js"></script>
 </body>
 </html>

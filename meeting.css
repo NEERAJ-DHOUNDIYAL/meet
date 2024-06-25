@@ -1,0 +1,81 @@
+.memcontainer{
+   height: 50rem;
+    background-image: url("month.jpg");
+    background-size: cover;
+   
+   
+
+}
+.monthcont{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.month{
+    height: 15vh;
+    width: 50vh;
+    border-radius: 5%;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  
+}
+button{
+    margin: 1%;
+    background-color: rgb(18, 220, 153);
+}
+.contentdisplay{
+    height: 60%;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.persondetail{
+    height: 71%;
+    width: 80%;
+    
+}
+.meetdate{
+    height: 15%;
+   
+    background-color:rgb(40, 40, 214);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meetdetails{
+    display: flex;
+    justify-content: center;
+}
+.meetbox{
+  width: 36%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.meetcontent{
+    height: 18rem; 
+    width: 70%;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7ea4e7;
+}
+
+.meetcontent p{
+    color: black;
+}
