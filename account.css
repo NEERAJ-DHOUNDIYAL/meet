@@ -1,6 +1,12 @@
+.container{
+  
+   height: 100vh;
+    display: inline-block;
+   
 
+}
 .contentdisplay{
-    height: 134rem;
+    height: 100%;
     margin-top: 1rem;
    display: flex;
     flex-direction: column;
