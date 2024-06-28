@@ -9,21 +9,22 @@
 .container{
     height: 100%;
     width: 100%;
-    background: #c1f7f5;
+    background: #09342B;
     display: inline-block;
    
 
 }
 
 .mantra{
-    background:rgb(110, 179, 252);
+    /* background:rgb(110, 179, 252)#09342B; */
+    background:#252525;
     height: 40px;
 }
 
 .logo{
-    background-color: rgb(211, 22, 22);
+    background-color: #09342B;
     height: 80px;
-    background-image: url("uk.jpg.webp");
+     background-image: url("black.jpg"); 
     
     background-size: cover;
     display: flex;
@@ -108,7 +109,9 @@
     width: 100%;
   display: flex;
   justify-content: space-evenly;
-  background: #fff;
+  /* background: #fff; */
+  background-image: url("uk.jpg.webp");
+  
   padding: 10px 5px;
  
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
@@ -116,10 +119,11 @@
 .nav-links li{
   list-style: none;
   margin: 0 12px;
+ 
 }
 .nav-links li a{
   position: relative;
-  color: #333;
+  color: white;
   font-size: 20px;
   font-weight: 500;
   padding: 6px 0;
@@ -164,7 +168,7 @@
 }
 .footer{
 
-  background:black;
+  background: black;
     height: 40px;
     display: flex;
   justify-content: center;

@@ -1,3 +1,8 @@
+.container{
+    
+   background-image: url("black.jpg");
+
+}
 .df {
     font-size: large;
     height: 70px;
@@ -15,14 +20,13 @@ justify-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-
-    background-color:white;
+margin-top: 15px;
+    background-color:;
 }
 
 .box {
     height: 370px;
     width: 370px;
-    background-color:white;
 
 }
 .box :hover{
@@ -37,7 +41,7 @@ justify-content: center;
     margin-right: 10px; */
    /* background-image: url("person.png"); */
     /* background-size: cover; */
-    box-shadow: 5px 5px 5px 5px#e1decc;
+    box-shadow: 2px 2px 2px 2px#e1decc;
 
 border-radius: 25px;
 }
@@ -57,7 +61,7 @@ align-content: center;
 .boxcontent p {
     font-size: larger;
     font-family: 'Brandon Printed', sans-serif;
-    color: #333333;
+    color: white;
     
    
 }
@@ -65,7 +69,7 @@ align-content: center;
 .boxcontent a {
     font-size: medium;
     text-decoration: none;
-    color: #006ae1;
+    color: white;
 }
 
 /* .box2 {

@@ -11,7 +11,8 @@ img {vertical-align: middle;}
   margin-top: 15px;
   display: flex;
   flex-direction: column;
-  background-color: black
+  background-image: url("black.jpg");
+
 }
 
 /* Caption text */
@@ -71,6 +72,7 @@ img {vertical-align: middle;}
   flex-wrap: wrap;
   height: 50rem;
   background-image: url("UttarakhandPines.jpg");
+  
   background-size:cover;
 }
 .brief {
@@ -78,9 +80,11 @@ img {vertical-align: middle;}
   font-size: larger;
   height: 25rem;
   width:80%;
-  font-weight: 700;
-  color:black;
-  background-color: white;
+  font-weight: 800;
+  
+  background-color: ;
+  color:white;
+  
   padding-left: 1rem;
   border-radius: 3rem;
  
@@ -88,7 +92,8 @@ img {vertical-align: middle;}
 }
 .thoughts{
   height: 30rem;
-  background: #167b77;
+  
+  background-image: url("black.jpg"); 
   display: flex;
   
 
