@@ -28,15 +28,18 @@ justify-content: center;
 .box :hover{
     border-radius: 8px;
     transform: scale(.95);
-}
+    }
 
-.boxlogo {
+.boxlogo img {
     /* height: 210px;
     width: 330px; */
     /* margin-left: 10px;
     margin-right: 10px; */
    /* background-image: url("person.png"); */
     /* background-size: cover; */
+    box-shadow: 5px 5px 5px 5px#e1decc;
+
+border-radius: 25px;
 }
 
 .boxcontent {
